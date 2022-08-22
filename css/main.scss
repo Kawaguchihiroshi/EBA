@@ -1,0 +1,141 @@
+$glay10: #E0E0E0;
+$glay80: #212121;
+$white: #FFFFFF;
+$black: #000000;
+
+body {
+  font-size: 12px;
+}
+
+.bg {
+  &-red {
+    background-color: #ffbaba;
+  }
+
+  &-blue {
+    background-color: #b8ecff;
+  }
+}
+
+.ml12 {
+  margin-left: 12px;
+}
+
+h1 {
+  font-size: 15px;
+  padding-bottom: 3px;
+  border-bottom: 1px solid $glay10;
+}
+
+.page-title {
+  margin-top: 23px;
+}
+
+.setting-area {
+  background-color: $glay10;
+}
+
+.time {
+  &-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    background-color: $glay10;
+    border: 1px solid $glay10;
+  }
+
+  &-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 5px;
+    border-bottom: 1px solid $glay10;
+  }
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+}
+
+.header {
+  &-title {
+    margin-top: 2px;
+    text-align: left;
+  }
+}
+
+nav {
+  padding: 12px;
+  background-color: $glay10;
+
+  >div.row {
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
+
+// Fontawesomeの設定
+.fa {
+  &-youtube {
+    font-size: 28px;
+    color: #ff0000;
+  }
+
+  &-envelope {
+    font-size: 28px;
+    color: #32ACD8;
+  }
+
+  &-bars {
+    font-size: 28px;
+  }
+}
+.drawer {
+  &-toggle {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: 0;
+    border-radius: 0;
+    background: $glay10;
+  }
+
+  &-nav {
+    z-index: 1500;
+  }
+
+  &-overlay {
+    z-index: 1400;
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+}
+
+
+footer {
+  color: $white;
+  font-size: 12px;
+  background-color: #96A9B3;
+
+  >div.row {
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
+
+.footer {
+  &-logoarea {
+    text-align: right;
+  }
+
+  &-logo {
+    width: 110px;
+  }
+
+  &-companyname {
+    font-size: 15px;
+  }
+}
